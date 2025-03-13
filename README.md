@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project is a Rust-based implementation of a RESP (Redis Serialization Protocol) parser along with a simple server module named Valkey. The purpose of this implementation is to handle RESP data structures, which are commonly used in Redis communication.
+This project is a Rust-based implementation of a RESP (Redis Serialization Protocol) parser along with a simple server module. The purpose of this implementation is to handle RESP data structures and complete the coding challenge as stated here: https://codingchallenges.fyi/challenges/challenge-redis/ .
 
 ## Features
 
 - Implements a RESP parser capable of handling different RESP data types.
 
-- Provides a Valkey module that can act as a lightweight Redis-like server.
+- Provides a lightweight Valkey-like server.
 
 - Uses Rust's standard I/O operations for parsing and network communication.
 
